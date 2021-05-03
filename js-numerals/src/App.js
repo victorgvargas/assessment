@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Converter from "./components/Converter";
 
 function App() {
-  const [number, setNumber] = useState();
+  const [number, setNumber] = useState(0);
 
   const handleChange = (event) => setNumber(event.target.value);
 

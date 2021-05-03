@@ -30,6 +30,7 @@ export const NUMBERS_STRINGS = {
 };
 
 export const SUFFIXES = {
+  HUNDRED: "hundred",
   THOUSAND: "thousand",
   MILLION: "million",
   BILLION: "billion",
