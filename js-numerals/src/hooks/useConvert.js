@@ -127,6 +127,6 @@ export default function useConvert(number) {
       normalize(stringifiedNumber, finalNumber);
     }
 
-    return finalNumber;
+    return finalNumber.join("");
   }
 }
